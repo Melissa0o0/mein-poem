@@ -14,7 +14,7 @@ function aiPoem(generate) {
   generate.preventDefault();
   let apiKey = "937eb44cb68833ao5cdt10179cf40b38";
   let context =
-    "Make sure to keep it short and sweet, use uncomplicated punchlines,no offensive content and provide the answer in french .";
+    "Make sure to keep it short and sweet, use uncomplicated punchlines,no offensive content and provide the answer in french. Use HTML format";
   let prompt = "Create a poem";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
