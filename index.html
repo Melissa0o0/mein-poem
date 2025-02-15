@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -24,7 +25,7 @@
         <div class="content">
           <div>
             <h1>The poetic workshop</h1>
-            <form>
+            <form id="form">
               <input
                 type="text"
                 placeholder="Enter a word, receive a poem"
@@ -36,12 +37,11 @@
               <input type="submit" value="Recite" class="search-button" />
             </form>
           </div>
-          <div class="poem">
-            The poeeeeeeemmmmmhereeeeeeee <br />more poemmmmmmmsssss....
-          </div>
+          <div class="poem" id="poem"></div>
         </div>
       </main>
       <footer><br />Coded by Melissa_shi <br /></footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
