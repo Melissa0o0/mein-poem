@@ -67,7 +67,7 @@ h1::before {
 }
 .form-holder {
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px;
 }
 .form {
   display: inline-flex;
@@ -109,7 +109,7 @@ h1::before {
 
 .poem {
   font-size: 16px;
-  padding: 20px;
+  padding: 20px 0px;
   line-height: 2;
   width: 300px;
   text-align: center;
