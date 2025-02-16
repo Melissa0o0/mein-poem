@@ -10,43 +10,65 @@
   </head>
 
   <body>
+    <header>
+      <div class="header">
+        <span>✨ Poem de poem ✨</span>
+      </div>
+    </header>
     <div class="container">
-      <header>
-        <div class="header">
-          <span>Poem de poem</span>
-          <span>
-            <a href="https://github.com/Melissa0o0/mein-poem" target="_blank"
-              >Open-sourced</a
-            >
-            on GitHub</span
-          >
-        </div>
-      </header>
       <main>
         <div class="content">
           <div>
             <h1>The poetic workshop</h1>
-            <form id="form">
-              <input
-                type="text"
-                placeholder="Enter a word, receive a poem"
-                autofocus
-                required
-                autocomplete="off"
-                class="search-input"
-              />
-              <input
-                type="submit"
-                value="Recite"
-                class="search-button"
-                id="button"
-              />
-            </form>
+            <div>
+              <span id="poem-placeholder" class="poem-placeholder"
+                >Imagine having a personal French poet available anytime, ready
+                to craft verses that capture emotions and ideas effortlessly.
+                <br />Whether you’re a writer, a dreamer, or simply a lover of
+                beautiful words <br />Click the button and see where poetry
+                takes you!</span
+              >
+            </div>
+            <div class="form-holder">
+              <div class="form">
+                <form id="form">
+                  <input
+                    type="text"
+                    placeholder="Enter a word, receive a poem"
+                    autofocus
+                    required
+                    autocomplete="off"
+                    class="search-input"
+                    id="search-input"
+                  />
+                  <input
+                    type="submit"
+                    value="Create"
+                    class="search-button"
+                    id="button"
+                  />
+                </form>
+              </div>
+              <div class="hints">
+                <small>i.e Stars, Flowers, Winter, Ocean ..... </small>
+              </div>
+            </div>
           </div>
-          <div class="poem" id="poem"></div>
+          <div>
+            <span class="poem" id="poem"></span>
+          </div>
         </div>
       </main>
-      <footer><br />Coded by Melissa_shi <br /></footer>
+      <footer class="footer">
+        <div>
+          Coded by Melissa_shi,
+
+          <a href="https://github.com/Melissa0o0/mein-poem" target="_blank"
+            >Open-sourced</a
+          >
+          on GitHub
+        </div>
+      </footer>
     </div>
     <script src="src/script.js"></script>
   </body>
